@@ -30,6 +30,12 @@ module.exports = {
       inherit: "inherit",
     },
     screens: {
+      xlg: {
+        max: "4000px",
+      },
+      llg: {
+        max: "2000px",
+      },
       lg: {
         max: "1200px",
       },
@@ -38,6 +44,9 @@ module.exports = {
       },
       sm: {
         max: "420px",
+      },
+      ssm: {
+        max: "365px",
       },
     },
   },

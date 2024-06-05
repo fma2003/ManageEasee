@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Credentials = ({ className = "" }) => {
   return (
     <div
-      className={`w-[576px] relative h-[598px] overflow-hidden shrink-0 text-left text-29xl text-white font-k2d lg:w-[445px] sm:w-[350px] ${className}`}
+      className={`w-[400px] relative h-[598px] text-left text-29xl text-white font-k2d lg:w-[445px] sm:align-left sm:w-[1200px] sm: right-7 ssm:right-10 md:left-2 ${className}`}
     >
       <img
         className="absolute top-[6px] left-[166px] w-24 h-[92px] overflow-hidden"
