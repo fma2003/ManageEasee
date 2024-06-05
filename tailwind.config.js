@@ -7,20 +7,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        blueviolet: "#9747ff",
         black: "#000",
         gainsboro: "#d9d9d9",
         white: "#fff",
         darkblue: "#1c37c5",
+        blueviolet: "#9747ff",
       },
       spacing: {},
       fontFamily: {
         k2d: "K2D",
       },
       borderRadius: {
-        mini: "15px",
-        "70xl": "89px",
         xl: "20px",
+        "70xl": "89px",
+        mini: "15px",
       },
     },
     fontSize: {
@@ -30,12 +30,6 @@ module.exports = {
       inherit: "inherit",
     },
     screens: {
-      xlg: {
-        max: "4000px",
-      },
-      llg: {
-        max: "2000px",
-      },
       lg: {
         max: "1200px",
       },
@@ -45,7 +39,7 @@ module.exports = {
       sm: {
         max: "420px",
       },
-      ssm: {
+      xs: {
         max: "365px",
       },
     },

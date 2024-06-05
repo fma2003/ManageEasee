@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Credentials = ({ className = "" }) => {
   return (
     <div
-      className={`w-[400px] relative h-[598px] text-left text-29xl text-white font-k2d lg:w-[445px] sm:align-left sm:w-[1200px] sm: right-7 ssm:right-10 md:left-2 ${className}`}
+      className={"relative w-[400px] h-[598px] text-left text-29xl text-white font-k2d lg:w-[445px] sm:align-left sm:w-[1200px] md:left-2 ${className}"}
     >
       <img
         className="absolute top-[6px] left-[166px] w-24 h-[92px] overflow-hidden"
@@ -15,13 +15,13 @@ const Credentials = ({ className = "" }) => {
         Login
       </h1>
       <input
-        className="[outline:none] bg-black absolute top-[235px] left-[66px] rounded-xl box-border w-[327px] h-[77px] border-[1px] border-solid border-white"
+        className="[outline:none] bg-black absolute top-[235px] left-[66px] rounded-xl box-border w-[328px] xs:w-[300px] h-[77px] border-[1px] border-solid border-white"
         placeholder="Enter Email"
         type="text"
-        form="Emal"
+        form="Email"
       />
       <input
-        className="[outline:none] bg-black absolute top-[337px] left-[66px] rounded-xl box-border w-[328px] h-[77px] border-[1px] border-solid border-white"
+        className="[outline:none] bg-black absolute top-[337px] left-[66px] rounded-xl box-border w-[328px] xs:w-[300px] h-[77px] border-[1px] border-solid border-white"
         placeholder="Enter Password"
         type="text"
       />
