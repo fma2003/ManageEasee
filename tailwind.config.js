@@ -12,6 +12,7 @@ module.exports = {
         white: "#fff",
         darkblue: "#1c37c5",
         blueviolet: "#9747ff",
+        skyblue: "#1098f7"
       },
       spacing: {},
       fontFamily: {
@@ -25,6 +26,7 @@ module.exports = {
     },
     fontSize: {
       "5xl": "24px",
+      "2xl": "20px",
       lg: "18px",
       "29xl": "48px",
       inherit: "inherit",
@@ -40,7 +42,7 @@ module.exports = {
         max: "420px",
       },
       xs: {
-        max: "365px",
+        max: "375px",
       },
     },
   },
