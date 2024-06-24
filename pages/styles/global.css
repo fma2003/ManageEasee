@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=K2D:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor:wght@400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,4 +10,37 @@ body {
 ::before,
 ::after {
   border-width: 0;
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* global.css */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera */
+}
+
+/* DataTable.css */
+.data-grid .MuiDataGrid-cell {
+  font-size: 1.25rem; /* Example for increasing font size */
+  padding: 1rem; /* Increase padding for cells */
+}
+
+.data-grid .MuiDataGrid-columnHeader {
+  font-size: 1.25rem; /* Increase font size for headers */
+}
+
+.data-grid .MuiDataGrid-footerContainer {
+  font-size: 1rem; /* Increase font size for footer */
 }
